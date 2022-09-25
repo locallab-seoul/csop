@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+{% load static %}
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/dark.css' %}" type="text/css" />
+
+	<!-- Agency Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="{% static 'css/agency.css' %}" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="{% static 'css/font-icons.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css" />
+
+	<link rel="stylesheet" href="{% static 'css/custom.css' %}" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="{% static 'css/colors.php?color=c0bb62' %}" type="text/css" />
+
+	<!-- Document Title -->
+	<title>CSOP</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header -->
+		<header id="header" data-sticky-shrink="false" class="header-size-md border-bottom-0">
+			<div class="container">
+
+        <div class="row justify-content-between" style="margin:24px 0;">
+          <div class="col-6 col-md-auto text-center text-md-start">
+            <a href="index.html" class="standard-logo"><img src="{% static 'images/logo.png' %}" alt="CSOP Logo"></a>
+          </div>          
+
+          <div class="col-6 col-md-auto text-center text-md-end" style="display:flex;flex-direction:column;justify-content:center;font-weight:700;font-size: 18px;">
+            춘천국제인형극학교
+          </div>
+        </div>
+				
+			</div>
+
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-between">
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation -->
+						<nav class="primary-menu flex-lg-grow-1">
+
+							<ul class="menu-container justify-content-lg-center">
+								<li class="menu-item current">
+									<a class="menu-link" href="about.html"><div>ABOUT</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="greeting.html"><div>명예교장 인사말</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="about.html"><div>학교소개</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="facility.html"><div>시설현황</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="history.html"><div>학교연혁/조직</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="contact.html"><div>오시는 길</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>PROGRAM</div></a>
+									<ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="class-2022-autumn.html"><div>2022 가을학교</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="class-2023-spring.html"><div>2023 봄학교</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="class-regular.html"><div>2023 정규학교</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="masters.html"><div>MASTERS</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>LIFE@CSOP</div></a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>STUDIO</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 특강</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 오픈 주간</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 학생교사 인턴십</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>NEWS</div></a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="board-list.html"><div>공지사항</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="#"><div>소식</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>아카이빙</div></a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->						
+
+					</div>
+
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+    <!-- Content -->
+		<section id="content">
+			<div class="content-wrap pb-0">
+
+				<div class="container">
+					<div class="row justify-content-between align-items-end">
+						<div class="col-md-9">
+							<h2 class="display-4 text-dark fw-semibold ls--2 gothic-a1 text-primary word-break">한국 현대 인형극의 최대 거점 도시 춘천에서 시작합니다.</h2>
+							<p class="text-dark mb-0 word-break">춘천은 인형극 축제와 인형극 전용 극장을 보유하고 있는 한국 현대 인형극의 최대 거점 도시로 30년 이상 한국 인형극 예술의 정체성을 가꾸고 발전시켜 왔습니다.</p>
+              <p class="mt-3 word-break">춘천시의 주도 아래 2022년 8월 개관하는 춘천국제인형극학교(CSOP:Chuncheon International School of Puppetry)는 인형과 오브제를 기반으로 여러 장르와 협업 가능한 유연한 사고를 가진 종합예술인 양성을 목표로, 인형극 제작, 연구, 교류를 위한 체계적 교육시스템을 갖춘 아시아 최초의 인형극학교입니다.</p>
+						</div>
+						<div class="col-md-3">
+						</div>
+					</div>
+
+					<img src="{% static 'images/about-01.jpg' %}" class="rounded-4 my-5">
+
+					<div class="row topmargin bottommargin gutter-lg-50 align-items-center">
+						<div class="col-lg-6 p-lg-5">
+							<div class="heading-block border-bottom-0 mb-0">
+								<h2 class="nott text-weight-800 mb-2 text-sec">OUR VISION</h2>
+                <h3 class="gothic-a1 text-primary word-break">인형극의 창조적 상상과 실천의 즐거움이 모이는, 춘천국제인형극학교</h3>
+								<p class="mt-3 word-break">춘천국제인형극학교는 인형을 매개로 인형극을 넘어, 생명과 환경, 사람과 삶, 시대와 세대를 잇는 예술의 사회적 역할을 실천하고 인형극 예술의 중심에서 활동할 미래 장인들이 서로 존중함 탐구하고 실험하는 학교를 지향합니다.</p>
+                <p class="word-break">앞으로 인형극 예술을 손으로 익히고 몸으로 사유하고 눈으로 탐구하는 즐거운 창작의 길에 학생들과 함께하겠습니다.</p>
+                
+                <h2 class="nott text-weight-800 mt-5 mb-2">Mission</h2>
+							  <h3 class="gothic-a1 text-primary word-break">인형극 예술 발전을 통한 휴머니즘의 회복과 인간의 창조성 증대에 기여</h3>
+							</div>
+						</div>
+						<div class="col-lg-6 p-lg-5">
+							<img src="{% static 'images/about-02.jpg' %}">
+						</div>
+					</div>
+				</div>
+
+				<div class="section p-0 testimonials clearfix">
+					<div class="container" style="padding: 56px 0">
+						<div class="heading-block border-bottom-0 center">
+              <h2 class="nott text-weight-800 mt-5">CORE VALUE</h2>
+              <div class="row justify-content-between mt-3">                
+							  <div class="col-lg-3 col-md-6 my-4">
+                  <i class="icon-heart21 color ms-0 text-center text-size-xl" style="color:#F08421 !important"></i>
+                  <h4 class="fw-medium">다양성 존중</h4>                 
+                </div>
+                <div class="col-lg-3 col-md-6 my-4">
+                  <i class="icon-lab2 color ms-0 text-center text-size-xl" style="color:#F08421 !important"></i>
+                  <h4 class="fw-medium">탐구와 실험</h4>                 
+                </div>
+                <div class="col-lg-3 col-md-6 my-4">
+                  <i class="icon-world color ms-0 text-center text-size-xl" style="color:#F08421 !important"></i>
+                  <h4 class="fw-medium">동시대성</h4>                 
+                </div>
+                <div class="col-lg-3 col-md-6 my-4">
+                  <i class="icon-params color ms-0 text-center text-size-xl" style="color:#F08421 !important"></i>
+                  <h4 class="fw-medium">균형감각</h4>                 
+                </div>
+              </div>
+						</div>						
+					</div>
+
+				</div>
+
+				<div class="container">
+
+					<div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
+						<div class="col-lg-6 p-lg-5">
+							<div class="heading-block border-bottom-0 mb-0">
+								<h2 class="nott text-weight-800 mb-4">PURPOSE</h2>
+								<ul class="list">
+                  <li>· 인간, 사회, 시대와 소통하는 공감능력의 인형극 특화 전문예술인 양성</li>
+                  <li>· 인간의 창조성 증대를 위한 인형극 예술의 종합적 안목과 창/제작 역량을 갖춘 미래 장인 발굴 및 양성</li>
+                  <li>· 다각적인 인형극 향유 및 참여 기회 확대를 통한 예술의 사회적 역할 실천</li>
+                  <li>· 예술산업 기반 확대를 통한'세계 인형극 중심도시, 춘천' 도시 브랜드 강화에 기여</li>
+                </ul>
+                <h2 class="nott text-weight-800 mb-4 mt-6">SPECIALIZED EDUCATION</h2>
+								<ul class="list">
+                  <li>· 소수정예 스튜디오 기반의 창·제작 중심 교육</li>
+                  <li>· 인형과 오브제를 매개로 하는 전방위적 실험 중심 교육</li>
+                  <li>· 미디어, 조형, 영상 분야를 연계한 열린 예술교육</li>
+                  <li>· 연구-토론-워크숍-크리틱과 멘토링을 통한 창의력 발굴 교육</li>
+                </ul>
+							</div>
+						</div>
+						<div class="col-lg-6 p-lg-5">
+							<img src="{% static 'images/about-03.jpg' %}">
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- Copyrights -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row justify-content-between col-mb-30">
+						<div class="col-lg-5 col-md-auto text-center text-md-start">
+							<span class="footer-title">춘천 국제 인형극 학교. CSOP Chuncheon International School of Puppetry</span>
+							<span class="footer-title-mo">춘천 국제 인형극 학교.<br>CSOP Chuncheon International School of Puppetry</span><br>
+              우 24207, 강원도 춘천시 사농동 277
+						</div>
+
+            <div class="col-lg-4 col-md-auto text-center text-md-start">
+							전화 033-259-5892~5<br>
+              메일 cspuppet@cccf.or.kr
+						</div>
+
+						<div class="col-lg-3 col-md-auto text-center text-md-end">
+							
+							<a href="https://www.facebook.com/csoppee" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<!--
+              <a href="#" class="social-icon inline-block si-small si-light si-rounded si-youtube">
+								<i class="icon-youtube"></i>
+								<i class="icon-youtube"></i>
+							</a>
+              -->
+
+							<a href="https://www.instagram.com/csoppee/" class="social-icon inline-block si-small si-light si-rounded si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+
+							<a href="https://blog.naver.com/csoppee" class="social-icon inline-block si-small si-light si-rounded si-evernote">
+								<i><img src="{% static 'images/icon-blog.svg' %}" style="width:18px;"></i>
+								<i><img src="{% static 'images/icon-blog-active.svg' %}" style="width:18px;"></i>
+							</a>
+            
+            </div>
+            <div class="row col-mb-30">
+              <div class="col-lg-12 footer-copyright">Copyrights 2022 All Rights Reserved by CSOP</div>              
+            </div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts -->
+	<script src="js/functions.js"></script>
+
+</body>
+</html>
