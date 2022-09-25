@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+{% load static %}
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/dark.css' %}" type="text/css" />
+
+	<!-- Agency Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="{% static 'css/agency.css' %}" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="{% static 'css/font-icons.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css" />
+
+	<link rel="stylesheet" href="{% static 'css/custom.css' %}" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="{% static 'css/colors.php?color=c0bb62' %}" type="text/css" />
+
+	<!-- Document Title -->
+	<title>CSOP</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header -->
+		<header id="header" data-sticky-shrink="false" class="header-size-md border-bottom-0">
+			<div class="container">
+
+        <div class="row justify-content-between" style="margin:24px 0;">
+          <div class="col-6 col-md-auto text-center text-md-start">
+            <a href="index.html" class="standard-logo"><img src="{% static 'images/logo.png' %}" alt="CSOP Logo"></a>
+          </div>          
+
+          <div class="col-6 col-md-auto text-center text-md-end" style="display:flex;flex-direction:column;justify-content:center;font-weight:700;font-size: 18px;">
+            춘천국제인형극학교
+          </div>
+        </div>
+				
+			</div>
+
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-between">						
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation -->
+						<nav class="primary-menu flex-lg-grow-1">
+
+							<ul class="menu-container justify-content-lg-center">
+								<li class="menu-item">
+									<a class="menu-link" href="about.html"><div>ABOUT</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="greeting.html"><div>명예교장 인사말</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="about.html"><div>학교소개</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="facility.html"><div>시설현황</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="history.html"><div>학교연혁/조직</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="contact.html"><div>오시는 길</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>PROGRAM</div></a>
+									<ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="class-2022-autumn.html"><div>2022 가을학교</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="class-2023-spring.html"><div>2023 봄학교</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="class-regular.html"><div>2023 정규학교</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="masters.html"><div>MASTERS</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>LIFE@CSOP</div></a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>STUDIO</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 특강</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 오픈 주간</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>CSOP 학생교사 인턴십</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>NEWS</div></a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+											<a class="menu-link" href="board-list.html"><div>공지사항</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="#"><div>소식</div></a>
+										</li>
+                    <li class="menu-item">
+											<a class="menu-link" href="#"><div>아카이빙</div></a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->						
+
+					</div>
+
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element boxed-slider">
+
+			<div class="container clearfix">
+
+				<div id="oc-slider" class="owl-carousel carousel-widget" data-items="1" data-loop="true" data-nav="true" data-autoplay="5000" data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="800">
+
+					<a href="#" style="position:relative">
+            <div class="slider-title">아시아 최초 인형극특화학교<br>
+							<span style="font-size:14px;font-weight:400;">춘천국제인형극학교가 2022년 8월 25일에 개교합니다.</span></div>
+            <img src="{% static 'images/slider/1.jpg' %}" alt="Slider">
+          </a>
+					<a href="#"><img src="{% static 'images/slider/2.jpg' %}" alt="Slider">
+						<div class="slider-title">Be a puppeteer!<br>
+							<span style="font-size:14px;font-weight:400;">Puppeteer란 드라마, 연극 , 인형극 조종 능력까지 갖춘 총체적인 배우이자 연출가</span></div>
+					</a>
+					<a href="#"><img src="{% static 'images/slider/3.jpg' %}" alt="Slider">
+						<div class="slider-title">Expand the creativity and imagination of ourselves!<br></div>
+					</a>
+					<a href="#"><img src="{% static 'images/slider/4.jpg' %}" alt="Slider">
+						<div class="slider-title">Explore your own voice as a creator!<br></div>
+					</a>
+					<a href="#"><img src="{% static 'images/slider/5.jpg' %}" alt="Slider">
+						<div class="slider-title">Join CSOP's warm-hearted community and communicate with empathy!<br></div>
+					</a>
+
+				</div>
+
+
+			</div>
+
+		</section>
+
+		<!-- Content -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<h3 class="center" style="font-weight: 700;">LATEST </span> NEWS</h3>
+
+					<div class="row clearfix">
+
+						<div class="col-lg-3 bottommargin news-wrapper">
+              <img src="{% static 'images/thumbnail-01.png' %}">
+              <div class="home-news">
+                <h6>NOTICE</h6>
+                <h5>가을 예비학교 학생 모집</h5>
+                <p class="left" style="font-size:16px;">가을 예비학교 학생 모집합니다. 2022년 9월 부터 진행할 이번 가을 예비학교는 3개월 과정으로 인형극 배우미들을 위한 알찬...</p>
+                <span>2022.07.01</span>
+              </div>	
+						</div>
+
+						<div class="col-lg-3 bottommargin news-wrapper">
+              <img src="{% static 'images/thumbnail-02.png' %}">
+							<div class="home-news">
+                <h6>NEWS</h6>
+                <h5>학교 시설물 이용 안내</h5>
+                <p class="left" style="font-size:16px;">학교에 입소하는 학생들은 누구나 학교 시설물을 자유롭게 이용할 수 있습니다. 교육과 생활 편의를 위한 어려 시설을 제공하고 있...</p>
+                <span>2022.06.30</span>
+              </div>
+						</div>
+
+						<div class="col-lg-3 bottommargin news-wrapper">
+              <img src="{% static 'images/thumbnail-03.png' %}">
+							<div class="home-news">
+                <h6>ARCHIVING</h6>
+                <h5>시나리오 수업 자료</h5>
+                <p class="left" style="font-size:16px;">가을학교 시나리오 강의 수업자료를 공유합니다. 강의는 3개 챕터 15개 아티클로 진행하며 교육 내용을 사전 숙지하시기 바랍니다.</p>
+                <span>2022.06.20</span>
+              </div>
+						</div>
+
+            <div class="col-lg-3 bottommargin news-wrapper">
+              <img src="{% static 'images/thumbnail-04.png' %}">
+							<div class="home-news">
+                <h6>ARCHIVING</h6>
+                <h5>인형 만들기 수업 자료</h5>
+                <p class="left" style="font-size:16px;">가을학교 인형 만들기 수업을 위한 교부재 수령 안내를 드립니다. 수업전 203호에서 교직원의 안내에 따라 수령해 가시기 바랍... </p>
+                <span>2022.06.11</span>
+              </div>
+						</div>
+
+					</div>
+
+					<div class="line"></div>
+
+          <h3 class="center" style="font-weight: 700;">INSTAGRAM </span> UPDATE</h3>
+
+          <div class="row clearfix">
+
+						<div class="col-lg-5ths col-md-5ths center bottommargin insta-thumbnail">
+              <div class="dim">
+                <div>고즈넉한 CSOP 학교 전경</div>
+              </div>
+              <img src="{% static 'images/insta-01.png' %}">
+            </div>
+
+            <div class="col-lg-5ths col-md-5ths center bottommargin insta-thumbnail">
+              <div class="dim">
+                <div>인형 제작 소품실</div>
+              </div>
+              <img src="{% static 'images/insta-02.png' %}">
+            </div>
+
+            <div class="col-lg-5ths col-md-5ths center bottommargin insta-thumbnail">
+              <div class="dim">
+                <div>인형극을 위한 작품</div>
+              </div>
+              <img src="{% static 'images/insta-03.png' %}">
+            </div>
+
+            <div class="col-lg-5ths col-md-5ths center bottommargin insta-thumbnail">
+              <div class="dim">
+                <div>영국 인형극 학교 마크</div>
+              </div>
+              <img src="{% static 'images/insta-04.png' %}">
+            </div>
+
+            <div class="col-lg-5ths col-md-5ths center bottommargin insta-thumbnail">
+              <div class="dim">
+                <div>영국 인형극 학교 앞 거리</div>
+              </div>
+              <img src="{% static 'images/insta-05.png' %}">
+            </div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- Copyrights -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row justify-content-between col-mb-30">
+						<div class="col-lg-5 col-md-auto text-center text-md-start">
+							<span class="footer-title">춘천 국제 인형극 학교. CSOP Chuncheon International School of Puppetry</span>
+							<span class="footer-title-mo">춘천 국제 인형극 학교.<br>CSOP Chuncheon International School of Puppetry</span><br>
+              우 24207, 강원도 춘천시 사농동 277
+						</div>
+
+            <div class="col-lg-4 col-md-auto text-center text-md-start">
+							전화 033-259-5892~5<br>
+              메일 cspuppet@cccf.or.kr
+						</div>
+
+						<div class="col-lg-3 col-md-auto text-center text-md-end">
+							
+							<a href="https://www.facebook.com/csoppee" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<!--
+              <a href="#" class="social-icon inline-block si-small si-light si-rounded si-youtube">
+								<i class="icon-youtube"></i>
+								<i class="icon-youtube"></i>
+							</a>
+              -->
+
+							<a href="https://www.instagram.com/csoppee/" class="social-icon inline-block si-small si-light si-rounded si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+
+							<a href="https://blog.naver.com/csoppee" class="social-icon inline-block si-small si-light si-rounded si-evernote">
+								<i><img src="{% static 'images/icon-blog.svg' %}" style="width:18px;"></i>
+								<i><img src="{% static 'images/icon-blog-active.svg' %}" style="width:18px;"></i>
+							</a>
+            
+            </div>
+            <div class="row col-mb-30">
+              <div class="col-lg-12 footer-copyright">Copyrights 2022 All Rights Reserved by CSOP</div>              
+            </div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts -->
+	<script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/plugins.min.js' %}"></script>
+
+	<!-- Footer Scripts -->
+	<script src="js/functions.js"></script>
+
+</body>
+</html>
