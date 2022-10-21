@@ -19,3 +19,6 @@ def history(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def masters(request):
+    return render(request, 'masters.html')
