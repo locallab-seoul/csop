@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Content -->
+		<section id="content">
+
+      <div class="content-wrap">
+
+				<div class="container clearfix">
+
+					<div class="row">
+
+						<div class="col-lg-8 portfolio-single-image">
+							<a href="#"><img src="{% static 'images/master-michael.jpg' %}" alt="Michael Corbidge"></a>
+						</div>
+						
+						<div class="col-lg-4 portfolio-single-content">
+
+							<div class="fancy-title title-bottom-border">
+								<h2>Michael Corbidge</h2>
+							</div>
+							<p class="text-1em word-break">영국 로열셰익스피어 컴퍼니(RSC) 보이스&액팅 전문 코칭, 아마추어 극장 커뮤니티와 차세대 무대 간의 연계를 구축하는 RSC의 오픈 스테이지 코치이다.</p>
+              <p class="text-1em word-break">브뤼포드 예술컬리지 등 여러 예술기관에서 액팅, 보이스, 고전 텍스트와 관련된 교육 및 워크샵, 트레이닝을 전담했다. 프랑스 ARTA(배우예술 연구소)에 초청되어 8년간 워크샵 지도 및 공연 연출을 현재 파리에 '셰익스피어 인터내셔널 스튜디오'를 개발하고 있다.</p>
+
+							<div class="line"></div>
+
+              <ul class="portfolio-meta bottommargin">
+                <li><span><i class="icon-map-marker-alt"></i>국적 :</span> 영국</li>
+                <li><span><i class="icon-user"></i>담당과목 :</span> 퍼펫티어의 매직박스</li>        
+							</ul>
+
+							<div class="si-share d-flex justify-content-between align-items-center mt-4">
+								<span>Share:</span>
+								<div>
+									<a href="#" class="social-icon si-borderless si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>									
+									<a href="#" class="social-icon si-borderless si-email3">
+										<i class="icon-email3"></i>
+										<i class="icon-email3"></i>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="divider divider-center"><i class="icon-circle"></i></div>
+
+					<h4>Masters</h4>
+
+					<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="20" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+						<div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-kimtaeyong' %}">
+										<img src="{% static 'images/master-kimtaeyong.jpg' %}" alt="김태용">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-kimtaeyong' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-kimtaeyong' %}">Kim Tae Yong</a></h3>
+								</div>
+							</div>
+						</div>
+
+            <div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-yoonjungsub' %}">
+										<img src="{% static 'images/master-yoonjungsub.jpg' %}" alt="윤정섭">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-yoonjungsub' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-yoonjungsub' %}">Yoon Jung Sub</a></h3>
+								</div>
+							</div>
+						</div>
+            
+            <div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-gavin' %}">
+										<img src="{% static 'images/master-gavin.jpg' %}" alt="Gavin Glover">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-gavin' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-gavin' %}">Gavin Glover</a></h3>
+								</div>
+							</div>
+						</div>
+
+            <div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-stephen' %}">
+										<img src="{% static 'images/master-stephen.jpg' %}" alt="Stephen Mottram">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-stephen' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-stephen' %}">Stephen Mottram</a></h3>
+								</div>
+							</div>
+						</div>
+
+            <div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-cristina' %}">
+										<img src="{% static 'images/master-cristina.jpg' %}" alt="Cristina Batman">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-cristina' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-cristina' %}">Cristina Batman</a></h3>
+								</div>
+							</div>
+						</div>
+
+            <div class="oc-item">
+							<div class="portfolio-item">
+								<div class="portfolio-image">
+									<a href="{% url 'master-lina' %}">
+										<img src="{% static 'images/master-lina.jpg' %}" alt="Lina Keevallik">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
+											<a href="{% url 'master-lina' %}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3><a href="{% url 'master-lina' %}">Lina Keevallik</a></h3>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- .portfolio-carousel end -->
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+{% endblock %}
