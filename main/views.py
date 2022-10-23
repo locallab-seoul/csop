@@ -43,3 +43,12 @@ def master_stephen(request):
 
 def master_yoonjungsub(request):
     return render(request, 'masters/master-yoonjungsub.html')
+
+def program_2022_autumn(request):
+    return render(request, 'program/class-2022-autumn.html')
+
+def program_2023_spring(request):
+    return render(request, 'program/class-2023-spring.html')
+
+def program_regular(request):
+    return render(request, 'program/class-regular.html')

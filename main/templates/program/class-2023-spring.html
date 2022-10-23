@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Content -->
+		<section id="content">
+
+			<div class="content-wrap">
+				<div class="container">
+          <h1 class="text-primary text-weight-800">2023 <span class="gothic-a1" style="color:#F08421 !important">봄학교</span></h1>          
+					<div class="row gutter-lg-50">
+            <div class="col-md-4">
+              <img src="{% static 'images/class-2023-spring.jpg' %}">
+            </div>
+            <div class="col-md-8">
+              <p style="margin-bottom:16px;">인형 및 오브제를 중심으로 드라마와 미디어를 연계한 통합교육과정</p>
+              <h2 class="gothic-a1" style="margin:40px 0 16px 0;">모집개요</h2>
+              <ul class="list">
+                <li class="text-size-md mb-3">· <span class="text-black">교육기간 :</span> 2023년 3월 ~ 2023년 6월(17주 과정)</li>
+                <li class="text-size-md mb-3">· <span class="text-black">모집기간 :</span> 2022년 11월 ~ 12월 예정</li>
+                <li class="text-size-md mb-3">· <span class="text-black">모집인원 :</span> 20명(국적 불문)</li>
+              </ul>
+            </div>
+          </div>
+				</div>
+			</div>
+
+		</section><!-- #content end -->
+{% endblock %}
